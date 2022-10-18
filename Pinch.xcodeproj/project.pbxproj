@@ -11,6 +11,10 @@
 		99D671DA28FD7EEE0074BF91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D671D928FD7EEE0074BF91 /* ContentView.swift */; };
 		99D671DC28FD7EF00074BF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D671DB28FD7EF00074BF91 /* Assets.xcassets */; };
 		99D671DF28FD7EF00074BF91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D671DE28FD7EF00074BF91 /* Preview Assets.xcassets */; };
+		99D671ED28FDE7AF0074BF91 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D671EC28FDE7AF0074BF91 /* InfoPanelView.swift */; };
+		99D671F028FF12860074BF91 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D671EF28FF12860074BF91 /* ControlImageView.swift */; };
+		99D671F228FF41720074BF91 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D671F128FF41720074BF91 /* PageModel.swift */; };
+		99D671F428FF42950074BF91 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D671F328FF42950074BF91 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		99D671D928FD7EEE0074BF91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99D671DB28FD7EF00074BF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D671DE28FD7EF00074BF91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D671EC28FDE7AF0074BF91 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		99D671EF28FF12860074BF91 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		99D671F128FF41720074BF91 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		99D671F328FF42950074BF91 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,8 @@
 				99D671EA28FD8F3E0074BF91 /* Data */,
 				99D671E828FD8F270074BF91 /* Model */,
 				99D671E728FD8F010074BF91 /* View */,
-				99D671D728FD7EEE0074BF91 /* PinchApp.swift */,
 				99D671E628FD8EBA0074BF91 /* Screen */,
+				99D671D728FD7EEE0074BF91 /* PinchApp.swift */,
 				99D671DB28FD7EF00074BF91 /* Assets.xcassets */,
 				99D671DD28FD7EF00074BF91 /* Preview Content */,
 			);
@@ -81,6 +89,8 @@
 		99D671E728FD8F010074BF91 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				99D671EC28FDE7AF0074BF91 /* InfoPanelView.swift */,
+				99D671EF28FF12860074BF91 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		99D671E828FD8F270074BF91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				99D671F128FF41720074BF91 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		99D671EA28FD8F3E0074BF91 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				99D671F328FF42950074BF91 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -170,7 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D671DA28FD7EEE0074BF91 /* ContentView.swift in Sources */,
+				99D671F228FF41720074BF91 /* PageModel.swift in Sources */,
+				99D671F028FF12860074BF91 /* ControlImageView.swift in Sources */,
 				99D671D828FD7EEE0074BF91 /* PinchApp.swift in Sources */,
+				99D671F428FF42950074BF91 /* PageData.swift in Sources */,
+				99D671ED28FDE7AF0074BF91 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
